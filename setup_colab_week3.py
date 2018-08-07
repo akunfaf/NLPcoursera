@@ -7,7 +7,7 @@ def download_github_code(path):
 	os.system("wget https://raw.githubusercontent.com/akunfaf/NLPcoursera/master/{} -O {}".format(path, filename))
 
 def setup_common():
-	#os.system("pip install tqdm")
+	os.system("pip install tqdm")
 	#os.system("pip install --upgrade Keras==2.0.6")  # latest version breaks callbacks
 	#download_github_code("keras_utils.py")
 	#download_github_code("grading.py")
