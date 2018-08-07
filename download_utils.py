@@ -108,7 +108,7 @@ def download_week3_resources(force=False):
             "test.tsv",
             "test_embeddings.tsv",
         ],
-        "data",
+        "data_week3",
         force=force
     )
 
