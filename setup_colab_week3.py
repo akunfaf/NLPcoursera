@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os
 
-def download_github_code(path, targetFolder=""):
+def download_github_code(path):
 	filename = path.rsplit("/")[-1]
 	os.system("wget https://raw.githubusercontent.com/akunfaf/NLPcoursera/master/{} -O {}".format(path, filename))
 
