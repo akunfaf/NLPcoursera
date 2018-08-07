@@ -13,7 +13,7 @@ def setup_common():
     #download_github_code("keras_utils.py")
     #download_github_code("grading.py")
     #download_github_code("download_utils.py")
-    download_github_code("contohHitung.py")
+    download_github_code("download_utils.py")
 
 def getDatasetWeek3(){
 	import download_utils
