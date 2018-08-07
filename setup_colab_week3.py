@@ -14,7 +14,7 @@ def setup_common():
 	#download_github_code("download_utils.py")
 	download_github_code("download_utils.py")
 	download_github_code("grader.py")
-	download_github_code("util")
+	download_github_code("util.py")
 
 def setup_week3():
 	setup_common()
