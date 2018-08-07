@@ -16,7 +16,7 @@ def setup_common():
 	#download_github_code("download_utils.py")
  	download_github_code("download_utils.py", "common/")
 
-def getDatasetWeek3(){
+def setup_week3(){
 	setup_common()
 	#import download_utils
 }
