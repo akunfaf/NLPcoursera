@@ -4,7 +4,7 @@ import os
 
 def download_github_code(path, targetFolder=""):
 	filename = path.rsplit("/")[-1]
-	#filename = targetFolder + filename
+	filename = targetFolder + filename
 	os.system("wget https://raw.githubusercontent.com/akunfaf/NLPcoursera/master/{} -O {}".format(path, filename))
 
 def setup_common():
