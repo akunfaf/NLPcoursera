@@ -12,6 +12,7 @@ def setup_common():
 	#download_github_code("keras_utils.py")
  	#download_github_code("grading.py")
 	#download_github_code("download_utils.py")
+	os.system("pip install tqdm")
  	download_github_code("download_utils.py")
 	download_github_code("grader.py")
 
